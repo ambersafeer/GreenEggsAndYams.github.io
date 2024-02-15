@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+		body{
+			background-color:#96B2D7;
+			color: #2a2a2a;
+			/* color properties */
+			
+			font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			font-size: 20px;
+			line-height: 150%; /* adjust as needed */
+			/* typography */
+			
+			margin: 0;
+			padding: 0;
+			/* borders, spacing*/
+		}
+		
+		.wrapper {
+			background: #ffffff;
+			width: 972px;
+			margin-left:auto;
+			margin-right: auto;
+			padding: 0 18px 18px;
+		}
+		
+		h1 {
+			color: seagreen;
+		}
+		/* if there is an h1 on the page, then change its color to
+		seagreen and change its size to 80 pixels in height */
+		
+		h2 {
+			color:darkgreen;
+		}
+		
+		h3{
+			font-family:"Franklin Gothic Demi", "Franklin Gothic Medium";
+			color:34646;
+			font-kerning: none;
+		}
+		
+		p {
+			font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			
+		}
+		
+		em.purple {
+			color:indigo;
+		}
+		
+		ul {
+			color:darkgoldenrod;
+		}
+		
+		li {
+			color:darkorange;
+		}
+		
+		a {
+			color:purple;
+			
+		}
+		
+		img {
+		}
+		
+		img.about {
+			filter:drop-shadow(4px 4px 4px seagreen);
+		}
+		
+		#table {
+			width: 50%;
+			table-layout: auto;
+			border-color: darkslategrey;
+			border-width: medium;
+		}
+		
+		tr{
+			background-color: aliceblue;
+		}
+		
+		th{
+			font-style: oblique;
+			background: #7EBCF4;
+		}
+		
+		td{
+			font-size: 13px;
+			font-style: oblique;
+		}
+		
+		.site-nav a, .page-nav a{
+			text-decoration: none;
+		}
+		
+		.site-nav a:hover, .page-nav a:hover{
+			text-decoration:underline;
+			color: #AA3436;
+		}
+		
+		.site-nav{
+			background: #EB8B8D;
+			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+			width: 500px;
+			text-align: center;
+			color:aliceblue;
+		}
+		
+		.site-nav a {
+			color:aliceblue;
+			
+		}
+		
+		.page-nav {
+			width: 500px;
+			text-align: center;
+			background: #044924;
+			color:aliceblue;
+		}
+		
+		.page-nav a {
+			color:aliceblue;
+		}
+
+.gallery-grid{
+	display: grid;
+}
