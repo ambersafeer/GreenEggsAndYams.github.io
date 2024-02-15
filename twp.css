@@ -70,7 +70,6 @@
 		}
 		
 		#table {
-			width: 50%;
 			table-layout: auto;
 			border-color: darkslategrey;
 			border-width: medium;
@@ -94,9 +93,14 @@
 			text-decoration: none;
 		}
 		
-		.site-nav a:hover, .page-nav a:hover{
+		.site-nav a:hover{
 			text-decoration:underline;
 			color: #AA3436;
+	
+		} 
+		.page-nav a:hover{
+			text-decoration:underline;
+			color: #56CEB4;
 		}
 		
 		.site-nav{
