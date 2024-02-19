@@ -131,6 +131,31 @@
 			color:aliceblue;
 		}
 
-.gallery-grid{
-	display: grid;
+	.gallery-grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-row-gap: 20px;
+		justify-items: center;
+		align-items: start;
+		justify-content: space-between;
+	}
+	
+.gallery-item {
+	width: 300px;
+	text-align: center;
+	
 }
+
+.gallery-item p{
+	margin: .25em 0;
+	line-height: 135%;
+}
+
+
+
+
+
+
+
+
+
