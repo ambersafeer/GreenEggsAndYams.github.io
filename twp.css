@@ -26,6 +26,7 @@
 		
 		h1 {
 			color: #A15E49;
+			text-align: center;
 		}
 		/* if there is an h1 on the page, then change its color to
 		seagreen and change its size to 80 pixels in height */
