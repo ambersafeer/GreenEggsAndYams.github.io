@@ -2,8 +2,8 @@
 /* CSS Document */
 
 		body{
-			background-color:#96B2D7;
-			color: #2a2a2a;
+			background-color:#8D94BA;
+			color: #0F1A20;
 			/* color properties */
 			
 			font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -17,7 +17,7 @@
 		}
 		
 		.wrapper {
-			background: #ffffff;
+			background: #fff8f0;
 			width: 972px;
 			margin-left:auto;
 			margin-right: auto;
@@ -25,18 +25,18 @@
 		}
 		
 		h1 {
-			color: seagreen;
+			color: #A15E49;
 		}
 		/* if there is an h1 on the page, then change its color to
 		seagreen and change its size to 80 pixels in height */
 		
 		h2 {
-			color:darkgreen;
+			color: #2A324B;
 		}
 		
 		h3{
 			font-family:"Franklin Gothic Demi", "Franklin Gothic Medium";
-			color:34646;
+			
 			font-kerning: none;
 		}
 		
@@ -46,7 +46,7 @@
 		}
 		
 		em.purple {
-			color:indigo;
+			color: #394467;
 		}
 		
 		ul {
@@ -95,16 +95,16 @@
 		
 		.site-nav a:hover{
 			text-decoration:underline;
-			color: #AA3436;
+			color: #737C99;
 	
 		} 
 		.page-nav a:hover{
 			text-decoration:underline;
-			color: #56CEB4;
+			color: #737C99;
 		}
 		
 		.site-nav{
-			background: #EB8B8D;
+			background: #2a324b;
 			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 			width: 500px;
 			text-align: center;
@@ -119,7 +119,7 @@
 		.page-nav {
 			width: 500px;
 			text-align: center;
-			background: #044924;
+			background: #2a324b;
 			color:aliceblue;
 		}
 		
