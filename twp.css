@@ -27,6 +27,7 @@
 		h1 {
 			color: #A15E49;
 			text-align: center;
+			line-height: 1.0;
 		}
 		/* if there is an h1 on the page, then change its color to
 		seagreen and change its size to 80 pixels in height */
@@ -107,9 +108,10 @@
 		.site-nav{
 			background: #2a324b;
 			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-			width: 500px;
+			width: auto;
 			text-align: center;
 			color:aliceblue;
+			margin: auto;
 		}
 		
 		.site-nav a {
@@ -122,6 +124,7 @@
 			text-align: center;
 			background: #2a324b;
 			color:aliceblue;
+			margin: auto;
 		}
 		
 		.page-nav a {
