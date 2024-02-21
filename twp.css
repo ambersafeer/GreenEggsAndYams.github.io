@@ -76,8 +76,7 @@
 		
 		#table {
 			table-layout: auto;
-			border-color: darkslategrey;
-			border-width: medium;
+			
 		}
 		
 		tr{
@@ -86,12 +85,13 @@
 		
 		th{
 			font-style: oblique;
-			background: #7EBCF4;
+			background: #8D94BA;
+			color: #fff8f0;
 		}
 		
 		td{
 			font-size: 13px;
-			font-style: oblique;
+			
 		}
 		
 		.site-nav a, .page-nav a{
@@ -99,8 +99,8 @@
 		}
 		
 		.site-nav a:hover{
-			text-decoration:underline;
-			color: #737C99;
+			background: #737C99;
+			color: aliceblue;
 	
 		} 
 		.page-nav a:hover{
@@ -109,16 +109,24 @@
 		}
 		
 		.site-nav{
-			background: #2a324b;
+			display: grid;
+			grid-template-columns: repeat(6, 1fr);
+			grid-row-gap: 0px;
+			justify-items: start;
+			align-items: center;
+			justify-content:space-between;
 			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-			width: auto;
 			text-align: center;
 			color:aliceblue;
-			margin: auto;
 		}
 		
 		.site-nav a {
-			color:aliceblue;
+			justify-self: center;
+			color:#2a324b;
+			text-decoration: none;
+			padding: 0px 28px;
+			border-bottom: thin #2a324b;
+			border-top: thin #2a324b;
 			
 		}
 		
@@ -152,6 +160,10 @@
 		margin: .25em 0;
 		line-height: 135%;
 	}
+.site-logo{
+	color:#A15E49;
+	resize: inherit;
+}
 
 
 
