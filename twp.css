@@ -54,16 +54,13 @@
 			
 		}
 		
-		ul {
-			color:darkgoldenrod;
-		}
 		
 		li {
-			color:darkorange;
+			color:#394467;
 		}
 		
 		a {
-			color:#287153;
+			color:#A15E49;
 			
 		}
 		
@@ -174,6 +171,25 @@
 	text-align: center;
 	font-size: 14px;
 	font-style: italic;
+}
+
+.reference a{
+	color:#A15E49;
+}
+.reference{
+	color:#0F1A20;
+}
+
+.button a{
+	background: #A15E49;
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	border-radius: 10px;
+	padding:5px;
+}
+.button a:hover{
+	background:#DA936D
 }
 
 
