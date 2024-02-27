@@ -162,7 +162,18 @@
 	}
 .site-logo{
 	color:#A15E49;
-	resize: inherit;
+}
+
+.center{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption{
+	text-align: center;
+	font-size: 14px;
+	font-style: italic;
 }
 
 
