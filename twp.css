@@ -144,8 +144,8 @@ a:hover{
 		
 		.page-nav a {
 			color:#f6fff8;
-			letter-spacing: 1px;
-			font-family:"legitima", serif;
+			
+			font-family: "Times New Roman";
 			font-weight: lighter;
 		}
 
