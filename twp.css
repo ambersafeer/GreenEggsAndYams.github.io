@@ -6,7 +6,7 @@
 			color: #2f3e46;
 			/* color properties */
 			
-			font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			font-family:"forma-djr-display", sans-serif;
 			font-size: 20px;
 			line-height: 150%; /* adjust as needed */
 			/* typography */
@@ -62,6 +62,7 @@
 		
 		li {
 			color:#394467;
+			font-family:"legitima", serif;
 		}
 		
 		a {
@@ -72,13 +73,9 @@
 a:hover{
 		text-decoration: underline;
 }
-		
-		img {
-		}
-		
-		img.about {
-			filter:drop-shadow(4px 4px 4px #0F1A20);
-		}
+.about{
+	text-align: center;
+}
 		
 		#table {
 			table-layout: auto;
@@ -86,17 +83,17 @@ a:hover{
 		}
 		
 		tr{
-			background-color: white;
+			background-color: #f6fff8;
 		}
 		
 		th{
-			font-style: oblique;
-			background: #8D94BA;
-			color: #fff8f0;
+			background: #354f52;
+			color: #f6fff8;
 		}
 		
 		td{
-			font-size: 13px;
+			font-size: 14px;
+			font-family:"legitima", serif;
 			
 		}
 		
@@ -121,7 +118,8 @@ a:hover{
 			padding: 10px;
 			align-items: center;
 			color:aliceblue;
-			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+			font-family:"forma-djr-display", sans-serif;
+			font-weight: bold;
 		}
 		
 		.site-nav a {
@@ -145,7 +143,10 @@ a:hover{
 		}
 		
 		.page-nav a {
-			color:aliceblue;
+			color:#f6fff8;
+			letter-spacing: 1px;
+			font-family:"legitima", serif;
+			font-weight: lighter;
 		}
 
 	.gallery-grid {
