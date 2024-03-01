@@ -2,8 +2,8 @@
 /* CSS Document */
 
 		body{
-			background-color:#8D94BA;
-			color: #0F1A20;
+			background-color: #a4c3b2;
+			color: #2f3e46;
 			/* color properties */
 			
 			font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -17,17 +17,19 @@
 		}
 		
 		.wrapper {
-			background: #fff8f0;
-			
-			width: 972px;
+			background: #eaf4f4;
+			width: 870px;
 			margin-left:auto;
 			margin-right: auto;
-			padding: 0 18px 18px;
+			padding-top: 30px;
+			padding-right:40px;
+			padding-left: 40px;
+			padding-bottom: 30px;
 		}
 		
 		h1 {
-			color: #A15E49;
-		
+			color: #354f52;
+			font-family:"forma-djr-display", sans-serif;
 			text-align: center;
 			line-height: 1.0;
 		}
@@ -36,21 +38,24 @@
 		
 		h2 {
 			color: #2A324B;
+			font-family:"forma-djr-display", sans-serif;
 		}
 		
 		h3{
-			font-family:"Franklin Gothic Demi", "Franklin Gothic Medium";
-			
-			font-kerning: none;
+			font-family:"forma-djr-display", sans-serif;
 		}
 		
 		p {
-			font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-family:"legitima", serif;
 			
 		}
 		
 		em.purple {
-			color: #394467;
+			background-image: url("images_resized/green-sea.gif");
+			color: transparent;
+			background-clip: text;
+			padding-right: 2px;
+			padding-left: 2px;
 			
 		}
 		
@@ -60,9 +65,13 @@
 		}
 		
 		a {
-			color:#A15E49;
+			text-decoration: none;
+			color:#6b9080;
 			
 		}
+a:hover{
+		text-decoration: underline;
+}
 		
 		img {
 		}
@@ -96,43 +105,43 @@
 		}
 		
 		.site-nav a:hover{
-			background: #737C99;
-			color: aliceblue;
+			background: #a4c3b2;
+			color: #f6fff8;
+			border: 0px;
 	
 		} 
 		.page-nav a:hover{
-			text-decoration:underline;
-			color: #737C99;
+			color: #354f52;
 		}
 		
 		.site-nav{
 			display: grid;
-			grid-template-columns: repeat(6, 1fr);
-			grid-row-gap: 0px;
-			justify-items: start;
+			grid-auto-flow: column;
+			grid-gap: 10px;
+			padding: 10px;
 			align-items: center;
-			justify-content:space-between;
-			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-			text-align: center;
 			color:aliceblue;
+			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 		}
 		
 		.site-nav a {
 			justify-self: center;
-			color:#2a324b;
+			color:#354f52;
 			text-decoration: none;
-			padding: 0px 28px;
-			border-bottom: thin #2a324b;
-			border-top: thin #2a324b;
+			padding: 5px 10px;
+			border: 1px solid #354f52;
+			border-radius: 20px;
 			
 		}
 		
 		.page-nav {
-			width: 500px;
+			width: fit-content;
 			text-align: center;
-			background: #2a324b;
+			background: #6b9080;
 			color:aliceblue;
 			margin: auto;
+			padding-left: 5px;
+			padding-right: 5px;
 		}
 		
 		.page-nav a {
@@ -181,15 +190,29 @@
 }
 
 .button a{
-	background: #A15E49;
-	color:#ffffff;
+	background: #a4c3b2;
+	color:#f6fff8;
 	text-decoration: none;
 	font-size: 14px;
 	border-radius: 10px;
 	padding:5px;
 }
 .button a:hover{
-	background:#DA936D
+	background:#cad2c5;
+	color: #f6fff8;
+		
+}
+
+.site-logo{
+	color:#52796f;
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	
+}
+
+.site-logo:hover{
+	color:#a4c3b2;
 }
 
 
