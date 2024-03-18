@@ -120,6 +120,9 @@
 			font-family:"forma-djr-display", sans-serif;
 			font-weight: bold;
 		}
+.site-logo-image {
+	height: 50px;
+}
 		
 		.site-nav a {
 			justify-self: center;
@@ -163,9 +166,6 @@
 		.gallery-item p{
 			margin: .25em 0;
 			line-height: 135%;
-		}
-		.site-logo{
-			color:#A15E49;
 		}
 
 		.center{
