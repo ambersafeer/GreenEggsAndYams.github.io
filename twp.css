@@ -123,18 +123,19 @@
 		.site-nav-flex a.logo:hover{
 			background: none;
 		}
-
-.page-nav a{
-	color:#354f52;
-			text-decoration: none;
-}
-		
 		.site-nav-flex a:hover{
-			background: #a4c3b2;
-			color: #f6fff8;
-			border: 0px;
+					background: #a4c3b2;
+					color: #f6fff8;
+					border: 0px;
 	
 		} 
+
+		.page-nav a{
+			color:#354f52;
+					text-decoration: none;
+		}
+		
+		
 
 		.page-nav a:hover{
 			color: #354f52;
